@@ -1,7 +1,7 @@
 import tkinter as tk
 import os
 
-# Helper to locate assets
+# card images are stored in the assets/ folder
 ASSETS_FOLDER = os.path.abspath(os.path.join(os.path.dirname(__file__), 'assets/'))
 
 class Card:
